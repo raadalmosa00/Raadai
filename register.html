@@ -1,0 +1,7 @@
+<h2>إنشاء حساب</h2>
+<form method="post">{% csrf_token %}
+  <input type="text" name="username" placeholder="اسم المستخدم"><br><br>
+  <input type="email" name="email" placeholder="البريد"><br><br>
+  <input type="password" name="password" placeholder="كلمة المرور"><br><br>
+  <button>تسجيل</button>
+</form>
